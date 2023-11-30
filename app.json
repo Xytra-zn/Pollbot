@@ -1,0 +1,15 @@
+{
+  "name": "your-poll-bot",
+  "description": "Telegram Poll Bot",
+  "repository": "https://github.com/your-username/your-poll-bot.git",
+  "env": {
+    "TOKEN": {
+      "description": "Telegram Bot Token"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
