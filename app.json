@@ -7,6 +7,9 @@
       "description": "Telegram Bot Token"
     }
   },
+  "scripts": {
+    "postdeploy": "python configure.py"
+  },
   "buildpacks": [
     {
       "url": "heroku/python"
